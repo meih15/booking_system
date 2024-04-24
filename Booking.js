@@ -6,7 +6,7 @@ class Booking {
     this.numberOfGuests = numberOfGuests;
   }
 
-  bookingDetails() {
+  describe() {
     return `Name: ${this.customerName}, Date: ${this.date}, Time: ${this.time}, Number of Guests: ${this.numberOfGuests}`;
   }
 }

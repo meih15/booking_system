@@ -1,13 +1,13 @@
 class Traveler {
-    constructor(name, origin, destination) {
-        this.name = name;
-        this.origin = origin;
-        this.destination = destination;
-    }
+  constructor(name, origin, destination) {
+    this.name = name;
+    this.origin = origin;
+    this.destination = destination;
+  }
 
-    display(){
-        return (`Name: ${this.name}, Origin: ${this.name}, Destination: ${this.name}`);
-    }
+  describe() {
+    return `Name: ${this.name}, Origin: ${this.name}, Destination: ${this.name}`;
+  }
 }
 
-module.exports = Traveler
+module.exports = Traveler;
