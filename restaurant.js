@@ -1,14 +1,14 @@
 class Restaurant {
 
     constructor(name, address, cuisineType) {
-        this.name = name
-        this.address = address
-        this.cuisineType = cuisineType
+        this.name = name;
+        this.address = address;
+        this.cuisineType = cuisineType;
     }
 
     describe() {
-        console.log(`Name: ${this.name}, Address: ${tihs.address}, Cuisine Type: ${this.cuisineType}`)
+        return (`Name: ${this.name}, Address: ${tihs.address}, Cuisine Type: ${this.cuisineType}`);
     }
-}
+};
 
-module.exports = Restaurant
+module.exports = Restaurant;
