@@ -7,7 +7,7 @@ class Restaurant {
     }
 
     describe() {
-        return (`Name: ${this.name}, Address: ${tihs.address}, Cuisine Type: ${this.cuisineType}`);
+        return (`Name: ${this.name}, Address: ${this.address}, Cuisine Type: ${this.cuisineType}`);
     }
 };
 
