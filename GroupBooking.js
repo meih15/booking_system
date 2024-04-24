@@ -11,3 +11,5 @@ class GroupBooking extends Booking{
         Number of Guests: ${this.numberOfGuests}, Size Of Group : ${this.groupSize}`;
     }
 }
+
+module.exports = GroupBooking;
